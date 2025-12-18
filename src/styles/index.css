@@ -9,3 +9,45 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+	width: 400px;
+	margin: 40px auto;
+	background: white;
+	padding: 10px;
+}
+.title {
+	text-align: center;
+	font-size: 60px;
+	color: rgba(160, 209, 239, 0.615);
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	justify-content: space-between;
+}
+input {
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+}
+.delete {
+	display: none;
+	cursor: pointer;
+}
+.task:hover .delete {
+	display: inline;
+}
+.empty {
+	color: gray;
+}
+.counter {
+	color: gray;
+	font-size: 12px;
+	padding: 5px;
+}
